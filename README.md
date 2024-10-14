@@ -23,12 +23,14 @@ GANs consist of two neural networks: a generator and a discriminator. These netw
 - **Training Stability**: GANs can be difficult to train, as the balance between the generator and discriminator is crucial.
 - **Quality of Generated Molecules**: The generated molecules might not always be chemically valid or biologically relevant.
 
-### 2. Diffusion Models for Biomolecule Generation
+## 2. Diffusion Models for Biomolecule Generation
 
 #### What Are Diffusion Models?
 Diffusion models are a class of generative models that learn to generate data by reversing a diffusion process. They progressively transform random noise into a structured output, such as a molecule, through a series of refinement steps:
 - **Forward Process (Diffusion)**: Data is gradually corrupted by adding noise in small steps, leading from a clean molecule representation to random noise.
 - **Reverse Process (Denoising)**: A neural network learns to reverse the diffusion process step-by-step, transforming random noise back into a valid molecular structure.
+
+![Diagramme e](Images/Diffusion-Model.png)
 
 #### How Diffusion Models Are Applied to Biomolecule Generation
 - **Molecular Structure Generation**: By learning the reverse diffusion process, these models can generate molecular structures from noise. This approach can produce diverse and high-quality molecular structures.
