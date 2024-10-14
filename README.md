@@ -2,7 +2,7 @@
 
 The generation of biomolecules using Generative Adversarial Networks (GANs) and diffusion models is an advanced technique in computational biology and chemistry. These methods aim to create new biomolecules, such as proteins, small molecules, or drug candidates, that exhibit desired properties or functions. Let’s dive into how GANs and diffusion models are used for this purpose.
 
-### 1. Generative Adversarial Networks (GANs) for Biomolecule Generation
+## 1. Generative Adversarial Networks (GANs) for Biomolecule Generation
 
 #### What are GANs?
 GANs consist of two neural networks: a generator and a discriminator. These networks are trained together in a competitive framework:
@@ -30,7 +30,7 @@ Diffusion models are a class of generative models that learn to generate data by
 - **Forward Process (Diffusion)**: Data is gradually corrupted by adding noise in small steps, leading from a clean molecule representation to random noise.
 - **Reverse Process (Denoising)**: A neural network learns to reverse the diffusion process step-by-step, transforming random noise back into a valid molecular structure.
 
-![Diagramme e](Images/Diffusion-Model.png)
+![Diagramme e](Images/Stable_Diffusion.png)
 
 #### How Diffusion Models Are Applied to Biomolecule Generation
 - **Molecular Structure Generation**: By learning the reverse diffusion process, these models can generate molecular structures from noise. This approach can produce diverse and high-quality molecular structures.
