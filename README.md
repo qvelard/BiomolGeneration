@@ -61,6 +61,7 @@ VAEs are a type of generative model that learns the probability distribution of 
 - **Encoder**: Maps the input (e.g., a molecular representation) to a lower-dimensional latent space.
 - **Decoder**: Reconstructs the original data from this latent space representation, allowing for the generation of new data points.
 
+![Diagramme explicatif3](Images/VAE_based-3014446974.png)
 #### How VAEs Are Applied to Biomolecule Generation
 - **Molecular Structure Generation**: VAEs can generate new molecules by sampling from the latent space and decoding these samples to create novel molecular structures. The latent space captures the essential features of known molecules.
 - **Molecular Optimization**: By navigating the latent space, VAEs can generate molecules with improved properties (e.g., higher binding affinity or solubility). The model can explore nearby regions in the latent space for optimization.
@@ -99,6 +100,8 @@ JT-VAEs extend traditional VAEs by explicitly considering the molecular structur
 #### What are Transformers?
 Transformers are deep learning models initially designed for natural language processing tasks. They use a self-attention mechanism to understand relationships within sequential data. In biomolecule generation, transformers can be applied to linear molecular representations, such as SMILES strings (Simplified Molecular Input Line Entry System), which encode molecular structures as sequences.
 
+![Diagramme explicatif5](Images/Transformer_architecture_a1d5ffc1e9.webp) 
+
 #### How Transformers Are Applied to Biomolecule Generation
 - **SMILES-based Generation**: Transformers can generate new molecules by treating molecular SMILES strings as text sequences. The model learns the rules of chemical syntax and generates new molecules by predicting the next token (character) in a sequence.
 - **Property Prediction and Optimization**: Transformers can be trained to predict molecular properties from SMILES sequences and generate molecules that optimize specific properties (e.g., binding affinity, solubility). This is done by conditioning the generation on desired property values.
@@ -112,6 +115,9 @@ Transformers are deep learning models initially designed for natural language pr
 ## 6. Graph Neural Networks (GNNs) for Biomolecule Generation
 #### What are GNNs?
 GNNs are deep learning models that operate on graph-structured data. In the context of biomolecules, atoms are treated as nodes, and chemical bonds as edges, making the molecular structure a graph. GNNs learn to embed molecular graphs in a way that captures their structural and chemical properties.
+
+
+![Diagramme explicatif6](Images/GNN_39d56fb37d-4068129332.png) 
 
 #### How GNNs Are Applied to Biomolecule Generation
 - **Graph-based Molecular Generation**: GNNs can directly generate molecular graphs by adding nodes (atoms) and edges (bonds) sequentially. This approach respects the molecular graph structure, resulting in chemically valid molecules.
@@ -131,6 +137,8 @@ Reinforcement Learning is a machine learning technique where an **agent** learns
 - **Agent**: In biomolecule generation, the agent represents the molecular generator.
 - **Environment**: The molecular space or chemical environment where the agent operates.
 - **Reward**: Feedback signal based on the generated molecule's properties (e.g., binding affinity, solubility, drug-likeness).
+
+![Diagramme explicatif6](Images/Reinforcement-learning-RL-agent-and-the-environment-interaction-333664323.png) 
 
 #### How RL Is Applied to Biomolecule Generation
 - **Molecular Property Optimization**: The RL agent generates molecules and receives rewards based on how well the properties of these molecules match desired criteria (e.g., high binding affinity, low toxicity). The agent adjusts its strategy to generate better molecules over time.
