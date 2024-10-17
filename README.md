@@ -1,12 +1,13 @@
 # BiomolGeneration
 
-The generation of biomolecules using Generative Adversarial Networks (GANs) and diffusion models is an advanced technique in computational biology and chemistry. These methods aim to create new biomolecules, such as proteins, small molecules, or drug candidates, that exhibit desired properties or functions. Let’s dive into how GANs, diffusion models, RL, VAE and GNNs are used for this purpose. The use of **Variational Autoencoders (VAEs)** and **Junction Tree Variational Autoencoders (JT-VAEs)** in biomolecule generation provides another robust approach alongside GANs and diffusion models. These models are particularly well-suited for generating small molecules, optimizing molecular properties, and learning molecular representations. 
+The generation of biomolecules using Generative Adversarial Networks (GANs) and diffusion models is an advanced technique in computational biology and chemistry. These methods aim to create new biomolecules, such as proteins, small molecules, or drug candidates, that exhibit desired properties or functions. Let’s dive into how GANs, diffusion models, RL, VAE and GNNs are used for this purpose. The use of **Variational Autoencoders (VAEs)** and **Junction Tree Variational Autoencoders (JT-VAEs)** in biomolecule generation provides another robust approach alongside GANs and diffusion models. These models are particularly well-suited for generating small molecules, optimizing molecular properties, and learning molecular representations. Using **Transformers** and **Graph Neural Networks (GNNs)** for biomolecule generation offers state-of-the-art techniques for learning molecular representations and creating novel molecular structures. These models excel at handling sequential and graph-based data, respectively, making them suitable for molecular structure prediction, optimization, and generation. Using **Reinforcement Learning (RL)** for biomolecule generation is an innovative approach that leverages trial-and-error learning to optimize molecules toward desired properties or functions. Below is a breakdown of how RL is used in the context of biomolecule generation.
  - [GANs](##-1.-generative-adversarial-networks-(gans)-for-biomolecule-generation)
  - [Diffusion](##-2.-diffusion-models-for-biomolecule-generation)
- - [VAE](##-3.-variational autoencoders-(vaes)-for-biomolecule-generation)
- - ## 1. Generative Adversarial Networks (GANs) for Biomolecule Generation
- - ## 1. Generative Adversarial Networks (GANs) for Biomolecule Generation
- - ## 1. Generative Adversarial Networks (GANs) for Biomolecule Generation
+ - [VAE](##-3.-variational-autoencoders-(vaes)-for-biomolecule-generation)
+ - [JT-VAE](##-4.-Junction-Tree-Variational-Autoencoders-(JT-VAEs)-for-Biomolecule-Generation)
+ - [Transformers](##-5.-Transformers-for-Biomolecule-Generation)
+ - [GNNs](##-6.-Graph-Neural-Networks-(GNNs)-for-Biomolecule-Generation)
+ - [RL](##-7.1.-Reinforcement-Learning-(RL)-for-Biomolecule-Generation)
 
 
 ## 1. Generative Adversarial Networks (GANs) for Biomolecule Generation
@@ -54,9 +55,7 @@ Diffusion models are a class of generative models that learn to generate data by
 
 #### Ressources : 
 
-The use of **Variational Autoencoders (VAEs)** and **Junction Tree Variational Autoencoders (JT-VAEs)** in biomolecule generation provides another robust approach alongside GANs and diffusion models. These models are particularly well-suited for generating small molecules, optimizing molecular properties, and learning molecular representations. 
-
-## 3. **Variational Autoencoders (VAEs) for Biomolecule Generation**
+## 3. Variational Autoencoders (VAEs) for Biomolecule Generation
 #### What are VAEs?
 VAEs are a type of generative model that learns the probability distribution of input data, such as molecular structures. They consist of an **encoder** and a **decoder**:
 - **Encoder**: Maps the input (e.g., a molecular representation) to a lower-dimensional latent space.
@@ -71,7 +70,7 @@ VAEs are a type of generative model that learns the probability distribution of 
 - **Latent Space Quality**: The quality of the latent space representation significantly affects the quality and diversity of generated molecules.
 - **Reconstruction Accuracy**: Ensuring that the decoder accurately reconstructs chemically valid molecules from the latent space is critical.
 
-## 4. **Junction Tree Variational Autoencoders (JT-VAEs) for Biomolecule Generation**
+## 4. Junction Tree Variational Autoencoders (JT-VAEs) for Biomolecule Generation
 #### What are JT-VAEs?
 JT-VAEs extend traditional VAEs by explicitly considering the molecular structure as a **graph of substructures**, such as rings and functional groups. The model constructs a **junction tree** representation where each node represents a substructure.
 
@@ -94,9 +93,9 @@ JT-VAEs extend traditional VAEs by explicitly considering the molecular structur
 - **Latent Space Interpretability**: Making the latent space representation interpretable for molecular properties remains challenging.
 - **Integration with Experimental Data**: Incorporating feedback from experimental assays can further refine the generation process.
 - **Scalability to Large Molecules**: Extending VAEs and JT-VAEs to handle larger molecules, such as full proteins, requires additional techniques.
-Using **Transformers** and **Graph Neural Networks (GNNs)** for biomolecule generation offers state-of-the-art techniques for learning molecular representations and creating novel molecular structures. These models excel at handling sequential and graph-based data, respectively, making them suitable for molecular structure prediction, optimization, and generation. Here's a detailed look at how each technique can be applied to biomolecule generation:
 
-## 5. **Transformers for Biomolecule Generation**
+
+## 5. Transformers for Biomolecule Generation
 #### What are Transformers?
 Transformers are deep learning models initially designed for natural language processing tasks. They use a self-attention mechanism to understand relationships within sequential data. In biomolecule generation, transformers can be applied to linear molecular representations, such as SMILES strings (Simplified Molecular Input Line Entry System), which encode molecular structures as sequences.
 
@@ -110,7 +109,7 @@ Transformers are deep learning models initially designed for natural language pr
 - **Chemical Validity**: Ensuring that generated SMILES strings correspond to valid molecular structures can be challenging.
 - **Sequence Length Limitations**: Very large molecules may present difficulties due to the sequential nature of SMILES strings.
 
-## 6. **Graph Neural Networks (GNNs) for Biomolecule Generation**
+## 6. Graph Neural Networks (GNNs) for Biomolecule Generation
 #### What are GNNs?
 GNNs are deep learning models that operate on graph-structured data. In the context of biomolecules, atoms are treated as nodes, and chemical bonds as edges, making the molecular structure a graph. GNNs learn to embed molecular graphs in a way that captures their structural and chemical properties.
 
@@ -125,9 +124,7 @@ GNNs are deep learning models that operate on graph-structured data. In the cont
 - **Chemical Validity**: Generating molecules as graphs ensures that generated structures adhere to chemical rules more naturally.
 
 
-Using **Reinforcement Learning (RL)** for biomolecule generation is an innovative approach that leverages trial-and-error learning to optimize molecules toward desired properties or functions. Below is a breakdown of how RL is used in the context of biomolecule generation, following the requested format:
-
-## 6.1. **Reinforcement Learning (RL) for Biomolecule Generation**
+## 7.1. Reinforcement Learning (RL) for Biomolecule Generation
 #### What is RL?
 Reinforcement Learning is a machine learning technique where an **agent** learns to make decisions by interacting with an **environment** and receiving **rewards** for specific actions. The goal is for the agent to maximize cumulative rewards by learning an optimal policy through exploration and exploitation.
 
@@ -145,7 +142,7 @@ Reinforcement Learning is a machine learning technique where an **agent** learns
 - **Exploration vs. Exploitation**: Balancing exploration (trying new molecular structures) and exploitation (refining known good structures) is crucial for effective learning.
 - **Sample Efficiency**: RL typically requires many interactions with the environment, making it computationally expensive.
 
-## 6.2. **Techniques and Strategies in RL for Biomolecule Generation**
+## 7.2. Techniques and Strategies in RL for Biomolecule Generation
 #### Common RL Algorithms Used
 - **Deep Q-Networks (DQN)**: Utilizes a neural network to approximate the value of different molecular actions and guides the generation process.
 - **Proximal Policy Optimization (PPO)**: A policy-gradient method that updates the policy in a stable manner, useful for optimizing molecule sequences.
