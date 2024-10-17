@@ -1,13 +1,13 @@
 # BiomolGeneration
 
-The generation of biomolecules using Generative Adversarial Networks (GANs) and diffusion models is an advanced technique in computational biology and chemistry. These methods aim to create new biomolecules, such as proteins, small molecules, or drug candidates, that exhibit desired properties or functions. Let’s dive into how GANs, diffusion models, RL, VAE and GNNs are used for this purpose. The use of **Variational Autoencoders (VAEs)** and **Junction Tree Variational Autoencoders (JT-VAEs)** in biomolecule generation provides another robust approach alongside GANs and diffusion models. These models are particularly well-suited for generating small molecules, optimizing molecular properties, and learning molecular representations. Using **Transformers** and **Graph Neural Networks (GNNs)** for biomolecule generation offers state-of-the-art techniques for learning molecular representations and creating novel molecular structures. These models excel at handling sequential and graph-based data, respectively, making them suitable for molecular structure prediction, optimization, and generation. Using **Reinforcement Learning (RL)** for biomolecule generation is an innovative approach that leverages trial-and-error learning to optimize molecules toward desired properties or functions. Below is a breakdown of how RL is used in the context of biomolecule generation.
- - [GANs](##-1.-generative-adversarial-networks-(gans)-for-biomolecule-generation)
- - [Diffusion](##-2.-diffusion-models-for-biomolecule-generation)
- - [VAE](##-3.-variational-autoencoders-(vaes)-for-biomolecule-generation)
- - [JT-VAE](##-4.-Junction-Tree-Variational-Autoencoders-(JT-VAEs)-for-Biomolecule-Generation)
- - [Transformers](##-5.-Transformers-for-Biomolecule-Generation)
- - [GNNs](##-6.-Graph-Neural-Networks-(GNNs)-for-Biomolecule-Generation)
- - [RL](##-7.1.-Reinforcement-Learning-(RL)-for-Biomolecule-Generation)
+The generation of biomolecules using Generative Adversarial Networks (GANs), Diffusion Models or other techniques is an advanced technique in computational biology and chemistry. These methods aim to create new biomolecules, such as proteins, small molecules, or drug candidates, that exhibit desired properties or functions. Let’s dive into different methods
+                        - [GANs](##-1.-generative-adversarial-networks-(gans)-for-biomolecule-generation)
+                        - [Diffusion](##-2.-diffusion-models-for-biomolecule-generation)
+                        - [VAE](##-3.-variational-autoencoders-(vaes)-for-biomolecule-generation)
+                        - [JT-VAE](##-4.-Junction-Tree-Variational-Autoencoders-(JT-VAEs)-for-Biomolecule-Generation)
+                        - [Transformers](##-5.-Transformers-for-Biomolecule-Generation)
+                        - [GNNs](##-6.-Graph-Neural-Networks-(GNNs)-for-Biomolecule-Generation)
+                        - [RL](##-7.1.-Reinforcement-Learning-(RL)-for-Biomolecule-Generation)
 
 
 ## 1. Generative Adversarial Networks (GANs) for Biomolecule Generation
