@@ -85,12 +85,7 @@ JT-VAEs extend traditional VAEs by explicitly considering the molecular structur
 - **Better Optimization Capabilities**: The explicit representation of molecular substructures improves the ability to optimize specific molecular properties.
 - **Chemical Validity**: Compared to traditional VAEs, JT-VAEs produce molecules that are more likely to be chemically valid due to the structured generation process.
 
-### **Applications of Biomolecule Generation by VAEs and JT-VAEs**
-- **Drug Discovery**: Generating novel drug candidates and optimizing known compounds for enhanced therapeutic properties.
-- **Protein Design**: Designing small peptide molecules or inhibitors that bind to specific protein targets.
-- **Material Science**: Creating molecules for new materials with specific chemical or physical properties.
-
-### **Challenges and Future Directions**
+#### **Challenges and Future Directions**
 - **Latent Space Interpretability**: Making the latent space representation interpretable for molecular properties remains challenging.
 - **Integration with Experimental Data**: Incorporating feedback from experimental assays can further refine the generation process.
 - **Scalability to Large Molecules**: Extending VAEs and JT-VAEs to handle larger molecules, such as full proteins, requires additional techniques.
