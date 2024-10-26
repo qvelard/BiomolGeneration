@@ -181,6 +181,10 @@ Reinforcement Learning is a machine learning technique where an **agent** learns
 - **Scalability and Efficiency**: Enhancing model capabilities for handling large and complex molecules efficiently.
 - **Hybrid Approaches**: Combining different techniques (e.g., RL with GNNs) for improved performance and molecule generation quality.
 
+# Main Idea : Combined ML methods to Biomol Generation
+
+Combining multiple generative models for molecular generation can significantly enhance the ability to design new compounds with desired properties. Here's a proposed approach that integrates **Generative Adversarial Networks (GANs)**, **Diffusion Models**, **Junction Tree Variational Autoencoders (JT-VAEs)**, **Transformers**, and **Graph Neural Networks (GNNs)**.
+
 # Tools' Listing
 
 To generate biomolecules with antioxidant and anti-inflammatory properties, several interfaces and libraries can be used in different programming languages, mainly Python. Here are the main options available for this type of task, utilizing machine learning interfaces, computational chemistry libraries, and specialized platforms:
