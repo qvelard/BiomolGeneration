@@ -185,6 +185,8 @@ Reinforcement Learning is a machine learning technique where an **agent** learns
 
 Combining multiple generative models for molecular generation can significantly enhance the ability to design new compounds with desired properties. Here's a proposed approach that integrates **Generative Adversarial Networks (GANs)**, **Diffusion Models**, **Junction Tree Variational Autoencoders (JT-VAEs)**, **Transformers**, and **Graph Neural Networks (GNNs)**.
 
+![Diagramme explicatif](Images/combined-ml-techniques.drawio)
+
 # Tools' Listing
 
 To generate biomolecules with antioxidant and anti-inflammatory properties, several interfaces and libraries can be used in different programming languages, mainly Python. Here are the main options available for this type of task, utilizing machine learning interfaces, computational chemistry libraries, and specialized platforms:
