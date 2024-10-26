@@ -188,3 +188,68 @@ This unified comparison provides a broad view of each model's strengths and limi
 
 In summary, both GANs and diffusion models are powerful tools for generating new biomolecules, with diffusion models generally providing higher quality and more diverse results. As these techniques evolve, they hold great promise for accelerating the discovery of new drugs and materials. **VAEs** are suitable for exploring molecular latent spaces and optimizing molecular properties, while **JT-VAEs** offer enhanced generation quality by incorporating a structured representation that enforces chemical rules. Both techniques are powerful tools in the pursuit of generating new biomolecules for various applications. **Transformers** are effective for sequence-based molecular generation, while **GNNs** excel at graph-based molecule modeling. Both techniques offer powerful tools for creating novel biomolecules and optimizing molecular properties for various applications in drug discovery and material science.  **RL** provides a framework for optimizing molecular properties through iterative learning and reward feedback. It is particularly useful for property-specific generation and can be combined with other generative techniques for enhanced molecule optimization.
 
+
+# Tools' Listing
+
+To generate biomolecules with antioxidant and anti-inflammatory properties, several interfaces and libraries can be used in different programming languages, mainly Python. Here are the main options available for this type of task, utilizing machine learning interfaces, computational chemistry libraries, and specialized platforms:
+
+### 1. **Hugging Face Transformers**
+   - **Description**: Hugging Face provides a wide range of models for text generation and deep learning, including pre-trained models for generating molecular structures in SMILES format.
+   - **Usage**: The text generation pipelines (`text-generation`) can be used to generate SMILES strings, and pre-trained models for chemistry can be downloaded from the platform.
+   - **Examples of models**:
+     - `ncfrey/ChemGPT-1.2B`: A model specifically pre-trained for molecule generation.
+     - `chemBERTa`: Used for analyzing and generating molecular sequences.
+   - **Advantages**: Wide choice of models, support for various tasks (classification, text generation, etc.).
+
+### 2. **RDKit**
+   - **Description**: An open-source library that is highly popular for handling chemical structures, generating molecules, and calculating molecular properties.
+   - **Usage**: RDKit allows generating molecules from SMILES strings, visualizing chemical structures, and calculating properties such as lipophilicity, molecular weight, etc.
+   - **Features**:
+     - Generation and optimization of molecular structures.
+     - Filtering based on physicochemical properties.
+     - Calculation of antioxidant activity based on known functional groups.
+
+### 3. **DeepChem**
+   - **Description**: An open-source library that provides tools for machine learning applied to chemistry.
+   - **Usage**: DeepChem allows training predictive models for various molecular properties and generating new molecules.
+   - **Features**:
+     - Predicting molecular properties (e.g., antioxidant or anti-inflammatory activity).
+     - Generative models for new molecule design.
+     - Integration with libraries like TensorFlow and PyTorch for custom model training.
+
+### 4. **PyTorch Geometric and DGL (Deep Graph Library)**
+   - **Description**: Libraries used for Graph Neural Networks (GNNs), which are well-suited for molecular structures.
+   - **Usage**: GNNs can be used to generate molecular graphs while optimizing for target properties such as biological activity.
+   - **Examples of models**:
+     - `GraphGAN`: A GAN model for graphs.
+     - `JT-VAE` (Junction Tree Variational Autoencoder): A specialized VAE for molecular graphs.
+
+### 5. **ChemTS**
+   - **Description**: ChemTS is a tool based on Bayesian search and sequential optimization for molecule generation using SMILES strings.
+   - **Usage**: It allows iterative optimization of molecular structures for specific properties using a SMILES generation engine.
+   - **Features**:
+     - Iterative generation and optimization of molecules.
+     - Prediction and optimization of pharmacological properties.
+
+### 6. **MOSES (Molecular Sets)**
+   - **Description**: MOSES provides standardized evaluation for molecular generation models.
+   - **Usage**: It allows testing and comparing different molecular generation models based on criteria such as diversity, chemical validity, and novelty.
+   - **Advantages**: Standardized comparison of generative molecular models.
+
+### 7. **Generative Models with PyTorch or TensorFlow**
+   - **Description**: Use general deep learning frameworks to implement generative models like GANs, VAEs, and Diffusion Models.
+   - **Usage**:
+     - Implement custom generative models for biomolecules.
+     - Train models on specific datasets to generate molecules with targeted properties.
+
+### 8. **H2O.ai for Automated Machine Learning**
+   - **Description**: H2O.ai offers automated machine learning solutions that can be applied to chemical data.
+   - **Usage**: Train predictive models automatically to predict antioxidant and anti-inflammatory properties.
+
+### 9. **AutoML and Machine Learning with Scikit-Learn**
+   - **Description**: Scikit-Learn and other AutoML libraries allow building machine learning models to predict molecular properties.
+   - **Usage**:
+     - Train supervised models to predict the properties of generated molecules.
+     - Filter molecules based on prediction results.
+
+These interfaces cover a wide range of applications for generating and optimizing biomolecules, from using pre-trained models to designing custom models. Each of these options can be combined based on the specific needs of the project to generate biomolecules with desired antioxidant and anti-inflammatory properties.
