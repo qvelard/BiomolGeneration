@@ -1,9 +1,95 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="xngv43tHOnTiQph6oPWI">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-1" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-80" width="940" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="425" y="180" width="560" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="460" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ez9CWYeOsh1V0xcWonHG-6" target="Ez9CWYeOsh1V0xcWonHG-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="210" />
+              <mxPoint x="500" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-5" value="Bouclage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ez9CWYeOsh1V0xcWonHG-4">
+          <mxGeometry x="0.408" y="3" relative="1" as="geometry">
+            <mxPoint x="14" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="210" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="210" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ez9CWYeOsh1V0xcWonHG-11" target="Ez9CWYeOsh1V0xcWonHG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-11" value="Dataset initial avec&amp;nbsp;&lt;div&gt;AI et AO&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ez9CWYeOsh1V0xcWonHG-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-13" value="Litterature model" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-14" value="GAN Model" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ez9CWYeOsh1V0xcWonHG-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-17" value="Untrained model&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-18" value="Training" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ez9CWYeOsh1V0xcWonHG-20" target="Ez9CWYeOsh1V0xcWonHG-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-20" value="Dataset initial avec&amp;nbsp;&lt;div&gt;AI et AO&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="600" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-21" value="Trained model&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-22" value="Final Dataset" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="Ez9CWYeOsh1V0xcWonHG-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="210" as="sourcePoint" />
+            <mxPoint x="540" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-24" value="&lt;b&gt;Fine-tuning step&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-25" value="Data Generation Step" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez9CWYeOsh1V0xcWonHG-26" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;" vertex="1" parent="1">
+          <mxGeometry x="610" y="400" width="120" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
