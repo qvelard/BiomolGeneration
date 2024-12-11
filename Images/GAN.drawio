@@ -5,16 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="P121hET3QLXZ2CQ4-4Ij-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="90" width="600" height="320" as="geometry" />
+          <mxGeometry x="-160" y="90" width="580" height="320" as="geometry" />
         </mxCell>
         <mxCell id="P121hET3QLXZ2CQ4-4Ij-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="P121hET3QLXZ2CQ4-4Ij-4" target="P121hET3QLXZ2CQ4-4Ij-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P121hET3QLXZ2CQ4-4Ij-4" value="Input Dataset with AI and AO properties" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-140" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="P121hET3QLXZ2CQ4-4Ij-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="P121hET3QLXZ2CQ4-4Ij-5" target="P121hET3QLXZ2CQ4-4Ij-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P121hET3QLXZ2CQ4-4Ij-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="100" width="160" height="300" as="geometry" />
@@ -29,11 +26,11 @@
             <mxPoint x="160" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P121hET3QLXZ2CQ4-4Ij-7" value="Discriminor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="P121hET3QLXZ2CQ4-4Ij-7" value="Discriminor&lt;div&gt;from scracht&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="270" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="P121hET3QLXZ2CQ4-4Ij-8" value="Enhanced Output Dataset" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="89HoJlmgT-2WeO-lS3sN-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="110" width="120" height="110" as="geometry" />
@@ -43,6 +40,12 @@
         </mxCell>
         <mxCell id="89HoJlmgT-2WeO-lS3sN-3" value="Generator" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="89HoJlmgT-2WeO-lS3sN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="249.5" as="sourcePoint" />
+            <mxPoint x="280" y="249.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
