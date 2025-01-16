@@ -10,7 +10,7 @@
         <mxCell id="A6aKOv3Wx5MAdU-xc5Nb-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="457.5" y="112.5" width="705" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="sJ6Rm_bC7IOQDmXi-pUd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RSrKTViwA0Ttyav9MQsQ-1" target="RSrKTViwA0Ttyav9MQsQ-3">
+        <mxCell id="HwG2_Dy7Q8ysbjKokFkh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RSrKTViwA0Ttyav9MQsQ-1" target="HwG2_Dy7Q8ysbjKokFkh-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RSrKTViwA0Ttyav9MQsQ-1" value="Initial Dataset with AI and AO properties" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -36,7 +36,7 @@
             <mxPoint x="810" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RSrKTViwA0Ttyav9MQsQ-9" value="PCA with AI and AO" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="RSrKTViwA0Ttyav9MQsQ-9" value="ADL with AI and AO&amp;nbsp; as target variables" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="600" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RSrKTViwA0Ttyav9MQsQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="RSrKTViwA0Ttyav9MQsQ-13" target="RSrKTViwA0Ttyav9MQsQ-14" edge="1">
@@ -65,19 +65,19 @@
         <mxCell id="RSrKTViwA0Ttyav9MQsQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RSrKTViwA0Ttyav9MQsQ-20" target="RSrKTViwA0Ttyav9MQsQ-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RSrKTViwA0Ttyav9MQsQ-20" value="RL Filter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="RSrKTViwA0Ttyav9MQsQ-20" value="Filter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="490" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1dg0CpYUahMAeQGO64DD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RSrKTViwA0Ttyav9MQsQ-25" target="RSrKTViwA0Ttyav9MQsQ-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RSrKTViwA0Ttyav9MQsQ-25" value="Optimization for Fine-Tuning l" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="RSrKTViwA0Ttyav9MQsQ-25" value="Optimization for Fine-Tuning&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="570" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="RSrKTViwA0Ttyav9MQsQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RSrKTViwA0Ttyav9MQsQ-6" target="RSrKTViwA0Ttyav9MQsQ-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RSrKTViwA0Ttyav9MQsQ-29" value="Fine-Tuning of Litterature Model&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;for Prediction of AI and AO properties&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="RSrKTViwA0Ttyav9MQsQ-29" value="Fine-Tuning with the initial dataset of Litterature Model&lt;div class=&quot;custom-cursor-default-hover&quot;&gt;for Prediction of AI and AO properties (Boltz-1)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="245" y="440" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="1dg0CpYUahMAeQGO64DD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="1dg0CpYUahMAeQGO64DD-2" target="1dg0CpYUahMAeQGO64DD-5" edge="1">
@@ -104,7 +104,7 @@
             <mxPoint x="340" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1dg0CpYUahMAeQGO64DD-5" value="Prediction for AI and AO properties on a bigger public dataset" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="1dg0CpYUahMAeQGO64DD-5" value="Prediction for AI and AO properties on a bigger public dataset :&lt;div&gt;error mitigation techniques&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="112.5" width="160" height="147.5" as="geometry" />
         </mxCell>
         <mxCell id="1dg0CpYUahMAeQGO64DD-6" value="&lt;b&gt;Prediction on a bigger dataset&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -119,7 +119,7 @@
         <mxCell id="1dg0CpYUahMAeQGO64DD-14" value="Generator" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="670" y="280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sJ6Rm_bC7IOQDmXi-pUd-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;width=22;endSize=7.33;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endWidth=20;" edge="1" parent="1" source="1dg0CpYUahMAeQGO64DD-6" target="A6aKOv3Wx5MAdU-xc5Nb-18">
+        <mxCell id="sJ6Rm_bC7IOQDmXi-pUd-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;width=22;endSize=7.33;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endWidth=20;" parent="1" source="1dg0CpYUahMAeQGO64DD-6" target="A6aKOv3Wx5MAdU-xc5Nb-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="-70" as="sourcePoint" />
             <mxPoint x="849.5299999999997" y="-79.8599999999999" as="targetPoint" />
@@ -128,6 +128,15 @@
               <mxPoint x="810" y="-110" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HwG2_Dy7Q8ysbjKokFkh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HwG2_Dy7Q8ysbjKokFkh-1" target="RSrKTViwA0Ttyav9MQsQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HwG2_Dy7Q8ysbjKokFkh-1" value="Data Augmentation Layer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="130" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HwG2_Dy7Q8ysbjKokFkh-4" value="New adapted dataset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="-140" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
