@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2501" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="COruwddNd0A3hEc_2JoQ-11" value="&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-200" y="120" width="730" height="240" as="geometry" />
-        </mxCell>
         <mxCell id="COruwddNd0A3hEc_2JoQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="239.5" as="targetPoint" />
@@ -18,24 +15,24 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lkSz2ydT6v9gxpICyNii-0" value="Fine-tuning of a litterature model" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="lkSz2ydT6v9gxpICyNii-0" value="Fine-tuning of a litterature model" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="80" y="190" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="lkSz2ydT6v9gxpICyNii-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="lkSz2ydT6v9gxpICyNii-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-10" y="240" as="sourcePoint" />
             <mxPoint x="80" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lkSz2ydT6v9gxpICyNii-9" value="Input" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lkSz2ydT6v9gxpICyNii-4">
+        <mxCell id="lkSz2ydT6v9gxpICyNii-9" value="Input" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lkSz2ydT6v9gxpICyNii-4" vertex="1" connectable="0">
           <mxGeometry x="-0.0222" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lkSz2ydT6v9gxpICyNii-6" value="&lt;span style=&quot;text-wrap-mode: nowrap; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Input&lt;/span&gt;&lt;div style=&quot;text-wrap-mode: nowrap; font-size: 11px;&quot;&gt;Dataset&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap; font-size: 11px;&quot;&gt;with AI and AO&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap; font-size: 11px;&quot;&gt;properties&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="lkSz2ydT6v9gxpICyNii-6" value="&lt;span style=&quot;text-wrap-mode: nowrap; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Input&lt;/span&gt;&lt;div style=&quot;text-wrap-mode: nowrap; font-size: 11px;&quot;&gt;Dataset&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap; font-size: 11px;&quot;&gt;with AI and AO&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap; font-size: 11px;&quot;&gt;properties&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-180" y="190" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="lkSz2ydT6v9gxpICyNii-7" value="Fine-tuned Model" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="lkSz2ydT6v9gxpICyNii-7" value="Fine-tuned Model" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="340" y="190" width="170" height="100" as="geometry" />
         </mxCell>
       </root>
